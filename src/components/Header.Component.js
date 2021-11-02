@@ -22,8 +22,6 @@ const Header = ({ navigation, title }) => {
 
 const styles = StyleSheet.create({
     header: {
-        borderBottomWidth: 2,
-        borderBottomColor: '#2a363b',
         height: 50,
         flexDirection: 'row',
         alignItems: 'center',
@@ -31,7 +29,7 @@ const styles = StyleSheet.create({
     },
     headerText: {
         fontSize: 20,
-        color: 'white'
+        color: '#2a363b'
     }
 })
 

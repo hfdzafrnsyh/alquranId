@@ -10,7 +10,6 @@ const SuratList = ({ navigation }) => {
     const fetchSuratList = async () => {
         const { data } = await server.get('/surah');
         setDataSuratList(data.data);
-        console.log(data.data)
     }
 
     useEffect(() => {

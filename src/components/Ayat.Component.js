@@ -11,6 +11,7 @@ const Ayat = ({ ayatQuran }) => {
                         <Text style={{ justifyContent: 'flex-end' }}>{ayat.nomor}</Text>
                         <Text style={styles.textAyat}>{ayat.ar}</Text>
                         <Text style={styles.textIndo}>{ayat.id}</Text>
+
                     </View>
                 ))
             }
@@ -18,9 +19,11 @@ const Ayat = ({ ayatQuran }) => {
     )
 }
 
+// backgroundColor: '#d99944',
+
 const styles = StyleSheet.create({
     containerAyat: {
-        backgroundColor: '#d99944',
+        backgroundColor: '#fff'
     },
     cardAyat: {
         backgroundColor: '#f0e5dd',

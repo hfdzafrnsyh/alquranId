@@ -19,7 +19,7 @@ const AyatList = ({ navigation }) => {
     }, [])
 
     return (
-        <ScrollView>
+        <ScrollView style={styles.container}>
             <Ayat ayatQuran={ayatQuran} />
         </ScrollView>
     )
@@ -28,7 +28,7 @@ const AyatList = ({ navigation }) => {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#d99944',
+        backgroundColor: '#fff',
     }
 })
 

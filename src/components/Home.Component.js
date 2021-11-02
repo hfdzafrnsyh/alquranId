@@ -3,7 +3,7 @@ import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import SuratList from './SuratList.Component';
 
 
-const Home = ({navigation}) => {
+const Home = ({ navigation }) => {
     return (
         <SafeAreaView style={styles.container}>
             <View>
@@ -16,7 +16,7 @@ const Home = ({navigation}) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#d99944',
+        backgroundColor: '#fff',
     },
 });
 
